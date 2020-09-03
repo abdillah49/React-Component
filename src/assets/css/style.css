@@ -1,0 +1,75 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+.title {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#meetupNow {
+	background: #ccc;
+	padding: 10px 20px;
+}
+.event-img > div, .member-img > div {
+	width: 100%;
+	background: #bbb;
+	height: 200px;
+	text-align: center;
+	padding: 10px 0;
+}
+.member-img > div {
+	height: 100px;
+}
+.event-img img, .member-img img {
+	max-height: 100%;
+	max-width: 90%;
+}
+.event-detail .row, .member-detail .row {
+	margin: 0;
+}
+.event-detail .item label, .member-detail .item label {
+	width: 100px;
+}
+section, footer {
+	margin: 10px auto;
+	max-width: 1200px;
+}
+.content {
+	padding: 10px 20px;
+}
+#meetupNext, #meetupAbout, #members, #meetupPast {
+	margin-top: 40px;
+}
+#meetupNext .content, #members .content {
+	background: #ccc;
+}
+h3 {
+	font-size: 13px;
+	font-weight: bold;
+}
+.item-past .inner {
+	background: #ccc;
+	padding: 15px;
+}
+.item-past h3 {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #00938a;
+}
+.item-past .judul {
+	margin: 10px 0;
+}
+.item-past .went {
+	margin-bottom: 15px;
+}
+.item-past .went span {
+	font-weight: bold;
+}
+footer {
+	margin-top: 40px;
+}
+.copyright {
+	text-align: center;
+	padding: 50px 0 30px;
+	border-top: 1px solid #00938a;
+}
